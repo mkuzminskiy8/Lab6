@@ -1,3 +1,4 @@
+# Michael Kuzminkisy
 def encode(number):
     encoded = []
     for i in number:
