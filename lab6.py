@@ -16,14 +16,11 @@ def decode(number):
 
 if __name__ == '__main__':
 
-    encoded_password = None
-    orig_password = None
-
     while True:
         print('Menu\n-------------\n1. Encode\n2. Decode\n3. Quit\n')
         option = int(input('Please enter an option: '))
 
-        if option == 0:
+        if option == 3:
             break
 
         elif option == 1:
